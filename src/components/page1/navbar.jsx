@@ -1,5 +1,5 @@
 function Navbar() {
-    return <div className="bg-gray-900 h-[80px] flex items-center justify-between" >
+    return <div className=" h-[80px] flex items-center justify-between" >
         
         <div className=" w-[300px] h-[80px] flex items-center justify-center">
             <div className="bg-black  z-100 w-[150px] pt-1.5 pb-1.5 flex items-center justify-center rounded-[20px]">
