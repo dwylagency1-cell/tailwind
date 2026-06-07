@@ -7,24 +7,23 @@ function App() {
   const user = [
     {
       img: professional,
-      intro: "",
+      intro: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem accusantium libero molestiae exercitationem numquam nihil magnam tempore?",
       tag: "Stisfied"
     },
     {
       img: professional_2,
-      intro: "",
+      intro: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum inventore accusantium vero vitae consectetur tempora.",
       tag: "Underserver"
     },
     {
       img: professional_3,
-      imtro: "",
+      intro: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates inventore dignissimos nobis ad repellat sit!",
       tag: "  Underbanked"
     }
   ]
 
   return <div >
     <Page1 users = {user}/>
-    <Page2/>
     
   </div>
 }
