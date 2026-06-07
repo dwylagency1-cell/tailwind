@@ -1,9 +1,10 @@
 import LeftContent from './leftText'
 import ImageContent from './imageContainer'
-function Section1() {
+function Section1(props) {
+    
     return <div className=" h-[90vh] flex items-center justify-between ">
         <LeftContent/>
-        <ImageContent/>
+        <ImageContent users = {props.user}/>
         
     </div>
 }
